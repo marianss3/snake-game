@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego</title>
+        <link rel="stylesheet" href="/CSS/estilojuego.css">
+        <script src="https://kit.fontawesome.com/43923240a9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       
+        <div class="contenedor">
+            <div class="detalles">
+                <div class="primera">
+                    <button id="color" class="volver" onclick="volver()"><i class="fa-solid fa-chevron-left"></i></button>
+                </div>
+                <div class="segunda">
+                    <i class="fa-solid fa-award"></i>
+                    <div class="puntos">puntos: 0</div>
+                    <i class="fa-solid fa-trophy"></i>
+                    <div class="record">record: 0</div>
+                </div>
+                <div class="tercera">
+                    <button id="color" class="mute" onclick="bajar()"><i class="fa-solid fa-volume-xmark"></i></button>
+                    <button id="color" class="play" onclick="sonar()"><i class="fa-solid fa-volume-high"></i></button>
+                </div>
+                
+            </div>
+            <div class="juego"></div>
+        </div>
+
+        <script src="/Java/scriptjuego.js"></script>
+    </body>
+</html>
